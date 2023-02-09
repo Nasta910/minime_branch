@@ -1,0 +1,49 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    margin: 4% 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+ol, ul, li {
+	list-style: disc !important;
+    padding: revert;
+}
+
+li.hover_img { position:relative; }
+li.hover_img span { position:absolute; display:none; z-index:99; }
+li.hover_img:hover span { display:block; }
+
+.title-part {
+    border: 2px solid #fff;
+    width: 29%;
+    background-color: #eac6c670;
+    margin: 2% 34%;
+    padding: 2%;
+}
+
+.title-part h1 {
+    text-align: center;
+}
+
+.about-me-list{
+    margin:0% 25%;
+}
